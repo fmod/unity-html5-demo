@@ -1,5 +1,5 @@
 Welcome to this FMOD HTML5 Demo!
-----------------------------------
+======
 
 Compatible with Unity 2020.3.16f1 and FMOD 2.01.
 
@@ -9,10 +9,11 @@ See the [HTML5 platform](https://fmod.com/resources/documentation-unity?version=
 ***FMOD for Unity has been removed from the project, [download](https://fmod.com/download) and install the latest version for it to work.***
 
 After downloading the project:
-    - Install FMOD for Unity.
-    - [Link FMOD to the supplied banks](https://fmod.com/resources/documentation-unity?version=2.01&page=user-guide.html#using-a-single-platform-build) found in "Assets\HTML Demo\Banks".
-    - Open "Scene 1".
-    - Press play.
+
+1. Install FMOD for Unity.
+2. [Link FMOD to the supplied banks](https://fmod.com/resources/documentation-unity?version=2.01&page=user-guide.html#using-a-single-platform-build) found in "Assets\HTML Demo\Banks".
+3. Open "Scene 1".
+4. Press play.
 
 Feel free to use any and everything from this project in your own games!
 

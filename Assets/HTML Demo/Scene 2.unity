@@ -323,7 +323,6 @@ GameObject:
   - component: {fileID: 891096693}
   - component: {fileID: 891096692}
   - component: {fileID: 891096690}
-  - component: {fileID: 891096689}
   - component: {fileID: 891096694}
   - component: {fileID: 891096691}
   m_Layer: 0
@@ -333,14 +332,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &891096689
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 891096688}
-  m_Enabled: 1
 --- !u!124 &891096690
 Behaviour:
   m_ObjectHideFlags: 0
@@ -462,7 +453,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionTag: 
-  Event: event:/ambience
+  EventReference:
+    Guid:
+      Data1: -1661456922
+      Data2: 1242547941
+      Data3: 851959725
+      Data4: 276066468
+    Path: event:/ambience
+  Event: 
   PlayEvent: 1
   StopEvent: 2
   AllowFadeout: 1
@@ -673,7 +671,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionTag: 
-  Event: event:/bounce
+  EventReference:
+    Guid:
+      Data1: 1141634168
+      Data2: 1182972583
+      Data3: 151108013
+      Data4: 1426596103
+    Path: event:/bounce
+  Event: 
   PlayEvent: 7
   StopEvent: 0
   AllowFadeout: 1
@@ -681,5 +686,5 @@ MonoBehaviour:
   Preload: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: -1
-  OverrideMaxDistance: -1
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0

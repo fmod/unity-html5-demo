@@ -34,14 +34,11 @@ public class LoadBankAndScene : MonoBehaviour
 
     IEnumerator CheckBanksLoaded()
     {
-        if (FMODUnity.RuntimeManager.HasBankLoaded(banks[banks.Capacity - 1]))
+        while (!FMODUnity.RuntimeManager.HaveAllBanksLoaded())
         {
-            Debug.Log("Master Bank Loaded");
+            yield return null;
         }
-        else
-        {
-            yield return new WaitForEndOfFrame();
-        }
+
         LoadingBanksText.text = "Banks Loaded";
         LoadingBanksText.GetComponent<Text>().color = Color.green;
         ChangeSceneButton.interactable = true;

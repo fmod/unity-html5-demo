@@ -34,7 +34,7 @@ public class LoadBankAndScene : MonoBehaviour
 
     IEnumerator CheckBanksLoaded()
     {
-        while (!FMODUnity.RuntimeManager.HaveAllBanksLoaded())
+        while (!FMODUnity.RuntimeManager.HasBanksLoaded)
         {
             yield return null;
         }

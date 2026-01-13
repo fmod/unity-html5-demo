@@ -1,7 +1,7 @@
 Welcome to this FMOD HTML5 Demo!
 ======
 
-Compatible with Unity 2020.3.16f1 and FMOD 2.02.
+Compatible with Unity 2020.3.49f1 and FMOD 2.02.
 
 This project demonstrates loading banks in one scene before moving to the next scene where audio is played.
 See the [HTML5 platform](https://fmod.com/resources/documentation-unity?version=2.02&page=platform-specifics.html#html5webgl) docs for more information.
